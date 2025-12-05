@@ -18,7 +18,7 @@ jobs:
           access-id: '${{ secrets.ACCESS_ID }}'
           dynamic-secrets: |
             - name: "/homework2-postgresql-dynamic-secret"
-            output-name: "postgres_dynamic_secret"
+              output-name: "postgres_dynamic_secret"
           access-type: jwt
           export-secrets-to-outputs: true
           export-secrets-to-environment: true
